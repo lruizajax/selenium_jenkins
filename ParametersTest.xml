@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Parameter test Suite" >
+    <parameter name="suite-param" value="suite level parameter" />
+    
+    <test name="Parameter Test one">
+        <classes>
+            <class name="pe.edu.galaxy.parameters.ParametersTest">
+                <methods>
+                    <include name="ParametersTestOne" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Parameter Test two">
+        <parameter name="test-two-param" value="Test two parameter" />
+        <classes>
+            <class name="pe.edu.galaxy.parameters.ParametersTest">
+                <methods>
+                    <include name="ParametersTestTwo" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Parameter Test three">
+        <parameter name="suite-param" value="overiding suite parameter" />
+        <parameter name="test-three-param" value="test three parameter" />
+        <classes>
+            <class name="pe.edu.galaxy.parameters.ParametersTest">
+                <methods>
+                    <include name="ParametersTestThree" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

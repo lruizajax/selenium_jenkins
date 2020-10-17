@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="13" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-09T22:08:00 PET" name="Suite" finished-at="2020-10-09T22:08:26 PET" duration-ms="26308">
+    <groups>
+    </groups>
+    <test started-at="2020-10-09T22:08:00 PET" name="TestOnChrome" finished-at="2020-10-09T22:08:19 PET" duration-ms="19079">
+      <class name="pe.edu.galaxy.MultiBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:pe.edu.galaxy.MultiBrowser@f0f2775]" started-at="2020-10-09T22:08:00 PET" name="setup" finished-at="2020-10-09T22:08:09 PET" duration-ms="9267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="google()[pri:0, instance:pe.edu.galaxy.MultiBrowser@f0f2775]" started-at="2020-10-09T22:08:09 PET" name="google" finished-at="2020-10-09T22:08:19 PET" duration-ms="9433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pe.edu.galaxy.MultiBrowser@f0f2775]" started-at="2020-10-09T22:08:19 PET" name="teardown" finished-at="2020-10-09T22:08:19 PET" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pe.edu.galaxy.MultiBrowser -->
+    </test> <!-- TestOnChrome -->
+    <test started-at="2020-10-09T22:08:00 PET" name="TestInOpera" finished-at="2020-10-09T22:08:23 PET" duration-ms="23527">
+      <class name="pe.edu.galaxy.MultiBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:pe.edu.galaxy.MultiBrowser@8b96fde]" started-at="2020-10-09T22:08:00 PET" name="setup" finished-at="2020-10-09T22:08:15 PET" duration-ms="14591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="google()[pri:0, instance:pe.edu.galaxy.MultiBrowser@8b96fde]" started-at="2020-10-09T22:08:15 PET" name="google" finished-at="2020-10-09T22:08:23 PET" duration-ms="8698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pe.edu.galaxy.MultiBrowser@8b96fde]" started-at="2020-10-09T22:08:23 PET" name="teardown" finished-at="2020-10-09T22:08:23 PET" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pe.edu.galaxy.MultiBrowser -->
+    </test> <!-- TestInOpera -->
+    <test started-at="2020-10-09T22:08:00 PET" name="TestOnFirefox" finished-at="2020-10-09T22:08:26 PET" duration-ms="26308">
+      <class name="pe.edu.galaxy.MultiBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:pe.edu.galaxy.MultiBrowser@44a664f2]" started-at="2020-10-09T22:08:00 PET" name="setup" finished-at="2020-10-09T22:08:17 PET" duration-ms="17358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="google()[pri:0, instance:pe.edu.galaxy.MultiBrowser@44a664f2]" started-at="2020-10-09T22:08:17 PET" name="google" finished-at="2020-10-09T22:08:25 PET" duration-ms="7984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pe.edu.galaxy.MultiBrowser@44a664f2]" started-at="2020-10-09T22:08:25 PET" name="teardown" finished-at="2020-10-09T22:08:26 PET" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pe.edu.galaxy.MultiBrowser -->
+    </test> <!-- TestOnFirefox -->
+  </suite> <!-- Suite -->
+  <suite started-at="2020-10-09T22:08:26 PET" name="Suite (0)" finished-at="2020-10-09T22:08:36 PET" duration-ms="9933">
+    <groups>
+    </groups>
+    <test started-at="2020-10-09T22:08:26 PET" name="Test" finished-at="2020-10-09T22:08:36 PET" duration-ms="9933">
+      <class name="pe.edu.galaxy.parameters.ParametersWithOutTestNGXML">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pe.edu.galaxy.parameters.ParametersWithOutTestNGXML@2893de87]" started-at="2020-10-09T22:08:26 PET" name="setup" finished-at="2020-10-09T22:08:30 PET" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="load()[pri:0, instance:pe.edu.galaxy.parameters.ParametersWithOutTestNGXML@2893de87]" started-at="2020-10-09T22:08:30 PET" name="load" finished-at="2020-10-09T22:08:33 PET" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method signature="google_search()[pri:0, instance:pe.edu.galaxy.parameters.ParametersWithOutTestNGXML@2893de87]" started-at="2020-10-09T22:08:33 PET" name="google_search" finished-at="2020-10-09T22:08:33 PET" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pe.edu.galaxy.parameters.ParametersWithOutTestNGXML@2893de87]" started-at="2020-10-09T22:08:33 PET" name="tearDown" finished-at="2020-10-09T22:08:36 PET" duration-ms="3270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pe.edu.galaxy.parameters.ParametersWithOutTestNGXML -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite started-at="2020-10-09T22:08:26 PET" name="Parameter test Suite" finished-at="2020-10-09T22:08:26 PET" duration-ms="95">
+    <groups>
+    </groups>
+    <test started-at="2020-10-09T22:08:26 PET" name="Parameter Test one" finished-at="2020-10-09T22:08:26 PET" duration-ms="11">
+      <class name="pe.edu.galaxy.parameters.ParametersTest">
+        <test-method signature="ParametersTestOne(java.lang.String)[pri:0, instance:pe.edu.galaxy.parameters.ParametersTest@400cff1a]" started-at="2020-10-09T22:08:26 PET" name="ParametersTestOne" finished-at="2020-10-09T22:08:26 PET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite level parameter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParametersTestOne -->
+      </class> <!-- pe.edu.galaxy.parameters.ParametersTest -->
+    </test> <!-- Parameter Test one -->
+    <test started-at="2020-10-09T22:08:26 PET" name="Parameter Test two" finished-at="2020-10-09T22:08:26 PET" duration-ms="1">
+      <class name="pe.edu.galaxy.parameters.ParametersTest">
+        <test-method signature="ParametersTestTwo(java.lang.String)[pri:0, instance:pe.edu.galaxy.parameters.ParametersTest@2145433b]" started-at="2020-10-09T22:08:26 PET" name="ParametersTestTwo" finished-at="2020-10-09T22:08:26 PET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test two parameter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParametersTestTwo -->
+      </class> <!-- pe.edu.galaxy.parameters.ParametersTest -->
+    </test> <!-- Parameter Test two -->
+    <test started-at="2020-10-09T22:08:26 PET" name="Parameter Test three" finished-at="2020-10-09T22:08:26 PET" duration-ms="69">
+      <class name="pe.edu.galaxy.parameters.ParametersTest">
+        <test-method signature="ParametersTestThree(java.lang.String, java.lang.String)[pri:0, instance:pe.edu.galaxy.parameters.ParametersTest@482cd91f]" started-at="2020-10-09T22:08:26 PET" name="ParametersTestThree" finished-at="2020-10-09T22:08:26 PET" duration-ms="68" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[overiding suite parameter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test three parameter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParametersTestThree -->
+      </class> <!-- pe.edu.galaxy.parameters.ParametersTest -->
+    </test> <!-- Parameter Test three -->
+  </suite> <!-- Parameter test Suite -->
+</testng-results>
