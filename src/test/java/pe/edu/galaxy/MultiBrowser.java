@@ -12,7 +12,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterTest;
 
 public class MultiBrowser {
-
+	static String path = "";
 	WebDriver driver = null;
 
 	@Parameters("BrowserName")
@@ -24,13 +24,25 @@ public class MultiBrowser {
 		System.out.println("Thread Id: " + Thread.currentThread().getId());
 		
 		if (BrowserName.equalsIgnoreCase("chrome")) {
-			driver = new ChromeDriver();
+			path = System.getProperty("user.dir");
+	  		System.setProperty("webdriver.chrome.driver", "C:\Users\User\eclipse-workspace\automation\src\test\resources\browser\chromedriver.exe");
+	 		driver.set(new ChromeDriver());
+			//driver = new ChromeDriver();
 		} else if (BrowserName.equalsIgnoreCase("firefox")) {
-			driver = new FirefoxDriver();
+			path = System.getProperty("user.dir");
+	  		System.setProperty("webdriver.chrome.driver", "C:\Users\User\eclipse-workspace\automation\src\test\resources\browser\geckodriver.exe");
+	 		driver.set(new FirefoxDriver());
+			//driver = new FirefoxDriver();
 		} else if (BrowserName.equalsIgnoreCase("ie")) {
-			driver = new InternetExplorerDriver();
+			path = System.getProperty("user.dir");
+	  		System.setProperty("webdriver.chrome.driver", "C:\Users\User\eclipse-workspace\automation\src\test\resources\browser\msedgedriver.exe");
+	 		driver.set(new InternetExplorerDriver());
+			//driver = new InternetExplorerDriver();
 		} else if (BrowserName.equalsIgnoreCase("opera")) {
-			driver = new OperaDriver();
+			path = System.getProperty("user.dir");
+	  		System.setProperty("webdriver.chrome.driver", "C:\Users\User\eclipse-workspace\automation\src\test\resources\browser\operadriver.exe");
+	 		driver.set(new OperaDriver());
+			//driver = new OperaDriver();
 		}
 	}
 
