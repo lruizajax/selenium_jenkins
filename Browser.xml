@@ -10,19 +10,7 @@
     </classes>
   </test>
   
-  <test  name="TestOnFirefox">
-  <parameter name="BrowserName" value="firefox"></parameter>
-    <classes>
-      <class name="pe.edu.galaxy.MultiBrowser"/>
-    </classes>
-  </test>
-  
-  <test  name="TestInOpera">
-  <parameter name="BrowserName" value="opera"></parameter>
-    <classes>
-      <class name="pe.edu.galaxy.MultiBrowser"/>
-    </classes>
-  </test>
+ 
    <!-- Test -->
 
 </suite> <!-- Suite -->
