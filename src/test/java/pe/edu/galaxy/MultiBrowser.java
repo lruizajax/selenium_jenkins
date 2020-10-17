@@ -26,8 +26,8 @@ public class MultiBrowser {
 		if (BrowserName.equalsIgnoreCase("chrome")) {
 			
 	  		System.setProperty("webdriver.chrome.driver", "C:\Users\User\eclipse-workspace\automation\src\test\resources\browser\chromedriver.exe");
-	 		
-			driver = new ChromeDriver();
+	 		driver.set(new ChromeDriver());
+			//driver = new ChromeDriver();
 		} else if (BrowserName.equalsIgnoreCase("firefox")) {
 			
 	  		System.setProperty("webdriver.gecko.driver", "C:\Users\User\eclipse-workspace\automation\src\test\resources\browser\geckodriver.exe");
