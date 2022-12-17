@@ -27,11 +27,7 @@ public class MultiBrowser {
 			driver = new ChromeDriver();
 		} else if (BrowserName.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
-		} else if (BrowserName.equalsIgnoreCase("ie")) {
-			driver = new InternetExplorerDriver();
-		} else if (BrowserName.equalsIgnoreCase("opera")) {
-			driver = new OperaDriver();
-		}
+		} 
 	}
 
 	@Test
