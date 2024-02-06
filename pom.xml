@@ -40,7 +40,6 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>Browser.xml</suiteXmlFile>
 						<suiteXmlFile>ParametersTest.xml</suiteXmlFile>
-						<suiteXmlFile>ParametersWithOutTestNGXML.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
